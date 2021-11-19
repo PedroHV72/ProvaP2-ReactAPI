@@ -22,9 +22,9 @@ const CardProduto: React.FC<ICardProdutoProps> = ({name, image, oldPrice, price,
           <img src={image}></img>
         </main>
         <h2>{name}</h2>
-        <h5>De {oldPrice}</h5>
-        <h4>Por {price}</h4>
-        <h5>ou em {parcela.count}x de {parcela.value}</h5>
+        <h5>De ${oldPrice}.00</h5>
+        <h4>Por ${price}.00</h4>
+        <h5>ou em {parcela.count}x de ${parcela.value}0</h5>
         <OpcaoComprar>
           <img src={CarrinhoCompra}></img>
           <h3>Comprar</h3>
