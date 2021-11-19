@@ -66,6 +66,7 @@ export const BotaoContato = styled.div`
 export const Contato = styled.div`
     display: flex;
     flex-direction: column;
+    margin-top: 60px;
 `;
 
 export const LogoFooter = styled.div`
