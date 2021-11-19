@@ -7,5 +7,4 @@ export const GridLayout = styled.div`
     'HD HD'
     'CT CT'
     'FT FT';
-    height: 100vh;
 `;

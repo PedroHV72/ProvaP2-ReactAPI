@@ -10,7 +10,7 @@ export const ConteudoSlide = styled.div`
     display: flex;
     flex-direction: row;
     height: 100%;
-    width: 48.8%;
+    width: 50%;
     justify-content: flex-end;
     font-size: 13px;
     font-family: system-ui;
@@ -23,6 +23,12 @@ export const ImagemSlide = styled.div`
     display: flex;
     flex-direction: row;
     width: 50%;
+
+    > img {
+        width: 100%;
+        object-fit: cover;
+        object-position: 0 0;
+    }
 `;
 
 export const CorDiv = styled.div`

@@ -4,33 +4,26 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     background: #fff;
-    margin: 0 15vw;
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
 
-    > h1 {
-        padding-top: 10px;
-        color: black;
-        font-family: 'Ubuntu', sans-serif;
-        font-size: 23px;
-        font-weight: bold;
+    &:hover {
+        background: #ccc;
     }
-`;
 
-export const Linha = styled.div`
-    width: 44px;
-    height: 4px;
-    background-color: ${props => props.theme.colors.secondary};
-    margin-top: 15px;
-`;
+    > main {
+        width: 100%;
+        position: relative;
 
-export const Produtos = styled.div`
-    margin: 1vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    > img {
-        width: 10vw;
+        > img {
+            width: 130px;
+            height: 130px;
+        }
     }
+
 
     > h2 {
         margin: 0;
