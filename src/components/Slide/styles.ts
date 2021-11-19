@@ -10,7 +10,7 @@ export const ConteudoSlide = styled.div`
     display: flex;
     flex-direction: row;
     height: 100%;
-    width: 49.3%;
+    width: 48.8%;
     justify-content: flex-end;
     font-size: 13px;
     font-family: system-ui;
